@@ -9,4 +9,4 @@ A Version Control System is commonly a stand-alone application, but can also be 
 [Response.txt](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-2/responses.txt)
 
 ### Screenshot
-![Course Banner](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-2/images/Desktop_screenshot.jpg)
+![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-2/images/Desktop_screenshot.jpg)
