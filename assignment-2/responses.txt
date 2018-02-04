@@ -1,0 +1,14 @@
+* Briefly describe one way how data travels on the internet.
+Data travels the internet in packets. 
+
+When data is sent the transfer breaks up into packets that travel across the network. Different packets from the same message don't have to follow the same path. That's part of what makes the Internet so robust and fast. These packets have a wrapper in the form of a header and a footer. The information contained in the wrapper tells computers what kind of data is in the packet, how it fits together with other packets, where the data came from and were the data is going. The packets travel from one machine to another until they reach their destination. As the packets arrive, the computer receiving the data assembles the packets like a puzzle, recreating the overall data transfer.
+
+* What is the relationship between IP address and the DNS?
+Domain Name Service or DNS is mechanism used to translate an IP address to its domain name and vice versa. People can remember names better than numbers it is easier for example to remember "http://www.harguess.com" rather than its IP address 66.96.161.154.
+
+* What is a cookie?
+A cookie is a small piece of data sent from a website and stored on a user's computer. Cookies are used by websites to store important user information, activity, and form information entered by the user. Cookies also perform essential functions like authenticating and tracking users.
+ 
+* List the thee three basic parts of a URL. 
+The three basic parts if a URL are the protocol, domain name, and path. Other complexities can be added to a url; like subdomain, port, and queries, but the basic url consists of just those three parts.
+
