@@ -23,4 +23,4 @@ Once the index page was completed, I created this readme.md file and them upload
 
 ## Work Flow Screenshot
 
-![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/project-1/images/Desktop_Screen_Shot.jpg)
+![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/project-1/images/Project_Screen_Shot.png)
