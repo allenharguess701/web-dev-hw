@@ -1,6 +1,7 @@
 # Assignment 3
 ## Allen Harguess
 
+[Live Site: ](https://allenharguess701.github.io/web-dev-hw/assignment-3/)
 
 ### B.) How many <head> and <body> elements can a page have? How are these elements different, or what role do they play?
 
