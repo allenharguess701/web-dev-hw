@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Accountability</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="popup-main"> 
+
+<h4>Accountability:</h4>
+Know where everyone is always. This is especially imporant at the onset of an emergency situation or a disaster. Tally up a list of places and
+phone numbers of all the important/frequented places your framily or group might be ony given day. At school or work, or any other regularly 
+visited place. Aslo have alternative means of communications should cell services go down. <br><br>
+For the most part a natural disaster or an attack of some sort will be the only instances where things will go south in a hurry. 
+Coordinate as best you can. If it should happen that communication do go down, everyone should follow the same plan laid out to get everyone 
+to a Primary Rally Point. Again, ideally that location should be home but that may not be an option. <br><br>
+
+Everyone within your group must be taken into consideration when designing you SM Scenarios. Their usual habits, work sites, schools attended, 
+and general commutes to and from those places, along with schedules. Getting everyone to one safe location at the onset of a situation is you 
+first concern. <br><br>
+Communications may not be available or reliable. Best case you have communications and can coordinate with everyone. At worst you can't 
+communicate at all. Plan for both cases. <br><br> 
+The example below will assume a worst case scenario exists since the alternative is easily done through regular communications. Have a route 
+planned for each person to get to your Primary Rally Point based on where their usual re-occurring locations are and to at least three Alternate
+ Rally Points. If the Primary Rally Point is not an option then they should make their way to the Alternate Rally Point followed in turn by each 
+ successive rally point. Avoid public transportation, known high traffic areas, and areas of high pedestrian congestion when planning your 
+ routes and choosing Rally Points. More often than not an indirect or roundabout route will prove to be more affective. Think safe and secluded. 
+ <br><br>
+Have a place for individuals to leave messages every Rally Point. It should be hidden or secured in some manner. Something as simple as a 
+zip-lock containing a note pad and pencil could stashed, perhaps buried in the ground next a known landmark. Set a specific arrival time for 
+each rally points. A cutoff, one that is realistic for your people to get there in a pinch. This deadline will be used by those who do make it 
+to any given rally point and will allow them to determine who have not, or have had to travel to the Alternate Rally Point.  <br><br>
+If you find you have people missing you'll be faced with your first difficult decision. Do you make for the Alternate Rally Point and hope to 
+extract your missing people there? Always wait until the cutoff time of the current rally point before doing so. Several things will affect 
+this decision directly. Remember; first and foremost, the reason for the Alternate Rally Points is to give your people a safe secluded place 
+to lay low. Their use by you as a means of finding one another is secondary. <br><br>
+CAPD may preclude you from leaving for a Secondary Rally Point, but that's ok. It is every members responsibility to get to the Primary Rally 
+Point anyway. Also, if CAPD exists you and they will more likely be better off staying put temporarily. additionally if you are relegated to 
+traveling on foot, any CAPD will be much more hazardous.<br><br>
+If you do elect find your missing people, do not take their Bugout Bag(s) with you. You will not know if they are in route. Better that the gear be left for them to find, than them get there and need it and not have it. 
+</div> 
+
+</body>
+</html>

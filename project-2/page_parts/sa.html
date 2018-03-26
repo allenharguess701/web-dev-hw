@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Situational Awareness</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="popup-main"> 
+
+<h4>Situational Awareness</h4>
+Situational Awareness has a dual meaning. One that is in regards to the individual and the other dealing with groups acting as a team. 
+With regard to the individual; I cannot stress more. One must be very diligent and aware. Not just of what is going on around you but why 
+things are going on around you. Sure you need that thousand yard stare, but it's more than that.<br><br>  
+By definition Situational Awareness is the ability to identify, process, and comprehend information about your surroundings in order to 
+identify and react to CAPD. It is dynamic, hard to maintain, and very easy to lose. Knowing what is going on all the time is difficult for 
+any one person at best, especially during high stress or survival situations. To establishing a proper mindset is first to recognize that 
+threats exist. Denial or ignorance of a threat makes your chances of quickly recognizing an emerging threat and avoiding it highly problematic 
+and unlikely. Bad things can and do happen, especially in survival situations. Apathy, denial and complacency often prove to be very deadly.
+Learning to trust your "gut", your intuition is key. Many times a your subconscious can notice subtle signs of danger that the conscious mind 
+has difficulty quantifying. Trusting your initial gut feelings about a situation and avoiding the resulting CAPD can be very inconvenient. 
+It can even cause you to lose out on opportunities, but ignoring those feelings can lead you to potential disaster. Be pragmatic. Is the CAPD 
+worth the gains.  <br><br> 
+The hard part is discipline; practicing situational awareness means you'll have to put forth the conscious effort required to pay attention 
+to your gut feelings and to the events surrounding you daily life even while you are busy and distracted. It is at such times that even obvious 
+hostile activity can go unnoticed. You need to learn to be observant even while doing other things.<br><br> 
+Situational Awareness as it relates to a group effort deals mainly with traveling as a group or patrolling. Both will be discussed at length 
+later on as part of the training section of this column.
+
+</div> 
+
+</body>
+</html>

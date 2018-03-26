@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scope</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="popup-main"> 
+
+<h4>Long Term:</h4>
+Ok so on to Long Term Situations. Really, you're going to start out in exactly the same way as you would with a short-term situation. The big 
+difference is you will; at some point within the Prodromal Time Coeffient, realize that it's going to be a long while before you can expect 
+any real assistance. There are very few natural disasters that will cause such a thing to occur. It would have to be something that affects 
+a good portion of the continent and sorely stresses the resources of the country. At any rate, should you be faced with such a situation you 
+will face the same challenges as before. You'll just need to shift into a higher survival gear so to speak. Storing food and water is a mute 
+point. Eventually your supplies will run out. You'll need a renewable food and water source. Again; for water, a well is the best bet but a 
+nearby lake or river will work. The key here is threefold; aquisition, purification, and storage.<br><br>
+You will need to have the ability to make as few trips as possible, for each time you go to collect water you will expose yourself to CAPD. 
+This poses the problem of collection capacity. You really should have the ability to collect sufficient water to last a minimum of a week. 
+More if you can muster it. After tackling that issue focus on the problem of purification. Boil all water before use at a minimum. Have a 
+process in place to purify the water of any microbes and bacteria. Water purification is a big topic so I'll get on that later. Just remember 
+that all of your water must be purified. You will get sick just as easily by bathing in or washing your things in unpurified water as you 
+would by drinking it. <br><br>
+A renewable food supply will pose just a big of a problem as water. You have three ways to go about this; Farm, Raise Livestock, or Gather, 
+Hunt, & Fish. The latter three should be thought of as a supplement to the first two.<br><br>
+Only a limited number of people can congregate without quickly exhausting the local food supplies when a hunter gatherer approach is used as 
+a means to solve the renewable food source problem. In climates that can support agriculture, farmland will support population densities 60 
+to 100 times greater than land left uncultivated. If we look to the anthropological data in North America we find that the traditional peoples 
+used on average, about 10 square miles per person as hunter gatherers. 10 square miles is 6,400 acres - that is for just one person.<br><br>
+Farming dramatically reduces the land requirements necessary to sustain a single person. A great method to employ is a system called 
+"Bio-Intensive Gardening". The Bio-Intensive method has been implemented worldwide to alleviate hunger and malnutrition since the 1970's when 
+a guy named John Jeavons came up with the concept. There is a wealth of information on the Bio-intensive method. The book How To Grow More 
+Vegetables Than You Ever Thought Possible On Less Land Than You Can Imagined by John Jeavons is available through Amazon. <br><br>
+Let's compare; the average diet with conventional farming methods requires 15,000 to 30,000 sq. ft. and is done in such a way that it 
+diminishes soil, (i.e. it is not sustainable). That's for one person. Using the Bio-Intensive method approximately 8,000 sq. ft. of land is 
+needed for the complete diet for one person, (4,000 sq/ft. of actual growing space and at least 4,000 sq. ft. for pathways and access). That 
+is also assuming you have four growing seasons per year. So, if you can only get two growing seasons, then you need to double the space 
+needed per person. For reference, an acre is 43,560 sq. ft. So, in a temperate climate, you could theoretically support about 5 people per 
+acre.<br><br>
+By all means; this method is not the only one out there. Do the research and find out what would work best for you. The stitch is; get that 
+ability, that knowledge, get it under your belt ASAP. You'll need it. All your other needs will be similar. The real difference is going to 
+be work. It's going to take a great deal more work. But that's really nothing new. This great nation was founded by hard work by those few 
+people who dared to take a chance and migrate to this great land. It's been done already, that's the message to take away from all this.
+So, you're probably thinking, "What's this guy thinking telling me to farm when things will get back to normal eventually?" The answer is 
+simple. The extended period of time will exhaust your food stores. It's inevitable. Plus, your really won't know how long things are going to 
+take to get back to normal. Additionally, as things start to return to normal you will have a resource to barter or sell to get the things 
+you'll need. Remember you won't have a traditional job at that point.<br><br>
+"Resources equal leverage which equals power".
+
+</div> 
+
+</body>
+</html>

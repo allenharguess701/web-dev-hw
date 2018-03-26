@@ -1,0 +1,207 @@
+/*
+Name: The Lost and Found
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	font-family: comic, sans-serif;
+	font-size: 14px;
+	color: grey;
+	background-color: black;
+}
+
+/* General Layout */
+#container {
+	z-index: 1;
+	width: 90%;
+	height: 1400;
+	position:relative;
+	margin: 0 auto;
+	background-color: black;
+}
+
+/* Header */
+#site-header {
+	margin-bottom: 4px;
+}
+
+/* Main Navigation Bar */
+#site-nav {
+	margin-bottom: 16px;
+}
+
+/* Main Body of Page */
+#site-body {
+	width: 90%;
+	height: 800;
+	margin: 0 auto;
+	margin:5px;
+	padding:5px;
+}
+
+/* Main Column */
+#main-column {
+	width: 65%;
+	margin:5px;
+	padding:5px;
+	float:left;
+}
+
+/* Side Column */
+#right-column {
+	width: 30%;
+	margin: 5px;
+	padding:5px;
+	float: left;
+}
+
+/* Side Column Posts*/
+#right-posts {
+	width: 100%;
+	margin: 5px;
+	padding:5px;
+	float: bottom;
+	border-bottom: 1px dotted grey;
+}
+
+
+/* Footer */
+#site-footer {
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+	padding: 5px;
+	float: bottom;
+}
+
+
+/* Info Boxes */
+#info-box1 {
+	width: 30%;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+#info-box2 {
+	width: 30%;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+#info-box3 {
+	width: 30%;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+#info-box4 {
+	width: auto;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+	border: 1px solidrey;
+}
+
+#info-box5 {
+	width: auto;
+	height: 100px;
+	margin: 5px;
+	padding: 5px;
+	float: right;
+}
+
+#footer-nav {
+	width: 90%;
+	margin: 0 auto;
+	height: 50px;
+	padding: 5px
+}
+
+#site-copywrite {
+	width: 90%;
+	margin: 0 auto;
+	height: 50px;
+	padding: 5px
+}
+
+a:link,
+a:visited {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 12;
+}
+a:hover {
+	color: yellow;
+	font-weight: bold;
+    padding-right: 12;
+}
+
+p {
+	line-height: 1#65em;
+	margin: 0 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: bold;
+	color: yellow;
+}
+
+#site-button {
+	font-weight: bold;
+	box-shadow: 5px 5px 10px red;
+	border: 1px solid #8B0000;
+	color: yellow;
+	margin: 2;
+	margin-top: 4;
+	text-shadow: 0 0 6px #FF0000;
+	background-color: #000000;
+	padding: 5px 14px;
+	vertical-align: bottom;
+	border-radius: 5px;
+}
+@-webkit-keyframes blink { 50% { border-color: #ff0000; }  }
+.animated-border {
+	border: 3px solid #8B0000;
+    -webkit-animation: blink .5s step-end infinite alternate;  
+}
+
+/* Popups */
+#popup-main {
+	width: 700px;
+	height: 400px;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+
+ul {
+	margin: 0;
+	padding: 5px 6px;
+	*zoom: 1;
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+	display: block;
+}
+	
+ul:before, ul:after { content: ""; display: table; }
+ ul:after { clear: both; }
+.site-nav ul {  }
+} 

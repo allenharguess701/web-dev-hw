@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scope</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="popup-main"> 
+
+<h4>Short Term:</h4>
+So; Short Term SM's, really the key here is riding it out until rescue and relief agencies get to you. Water, Food, and Safe Shelter are the 
+only concerns. In this term you can afford to be more liberal in your how much you help your community. Services are on the way. 
+<br><br>
+Most people can easily prep for a short-term disaster. First quantify the needs of your family or group. Water has the most weight. Generally 
+speaking, people can only survive about a week without water. However, that really depends on the weather conditions, your level of body fat, 
+and your general health status. If you are living in a hot climate, if you are obese, or sick the amount of time you can survive without water 
+can be greatly reduced. Water is the largest single component of the human body and it is essential for life. Generally speaking, you have to 
+think about water in three respects; consumption, hygiene, and general usage such as cleaning laundry, dishes, etc. <br><br>
+About three gallons of water per person per day for all of those considerations is a good idea. Remember this is for a healthy, fit person living 
+in a temperate environment. A good way to store water in a pinch is to fill up your bath tub if you have one. Another trick is to keep 50 gallon 
+garbage cans stored in a clean dry place. When the situation arises, rinse them out fill them up and cap them with their lids. Stored empty the 
+cans will take up relatively little space. Filled up they will take up a moderate amount of space depending on their numbers but the ease of 
+storage and their capacity will make the space they take up well worth it. Having property with a well is really the best bet; although, you 
+will want to make sure you have a manual means of pumping the water out, and/or a solar cell to power an electric pump. More on water purification 
+and storage later. <br><br>
+The average diet is based on 2400 calories per day. What you have to remember is that this is based on a normal stress level lifestyle and a 
+balanced diet. In a survival situation you are usually in a high stress level environment and you may not be eating a balanced diet. You have 
+to account for this. In the field US troops will eat three MREs daily which provide an average of 1,250 calories each, (13% protein, 36% fat, 
+and 51% carbohydrates). That is 3,750 calories daily. The higher calories compensate for the high-stress, high-excursion environment of field 
+combat.<br><br>
+Another thing you must consider is the resting metabolic rates of the members of your group. The resting metabolic rate is the number of 
+calories you eat that sustains your current body weight without any real excursion on your part. A person weighting 160lbs will have a 
+substantially less RMR than a person double that weight. That means the fat guy needs more calories to maintain his body weight and greatly 
+diminishing his calorie intake suddenly can pose problems. Base the calorie intake of the individuals of your group on the amount of physical 
+labor that they do. If the person in your group is highly active they will need more calories to survive and more importantly stay healthy. 
+Again, in a short term disasters you can afford to be more liberal in this area, but you must be sure it will truly be a short term situation 
+or you could be in real trouble. You should plan on a 2400 calorie/day diet for normal members of your group and at least a 3500 calorie/day 
+diet for members who are active or doing a lot of physical labor. <br><br>
+Safe shelter is kind of a complicated stitch. In some situations you may be forced to evacuate your home. This event will be hard to plan for 
+and will really tax your ability to store and or transport food and water. Natural disasters like that of super storm Sandy are a good example. 
+Severe flooding of that kind will almost always result in evacuation. Your choice of where you live will play heavily on this eventuality. First
+ off don't live in or near a flood plain. That's always a bad idea. If you must live near the coast, choose an area of high ground. West coast 
+ areas prone to earth quakes can also result in a forced evacuation. Again, your choices will greatly affect you.
+Plan for an evacuation; both on foot and by vehicle. Having your supplies well organized and packaged will help you in loading and transporting 
+them if you need to. You should also plan for an evacuation in earnest. If you must leave in a hurry, you should have a bugout bag already 
+prepared for each member of your group. Having each person carry their supplies will make things much easier and will allow for much more 
+supplies to be carried. We will go into greater detail on bugout bags later. <br><br>
+For this instance let us suppose that you will be staying in your home. The first thing you should do is make the solid decision to hunker down. 
+In most short term disasters, it is far better to stay put that bugout. That decision really should be based on CAPD and only you can make that 
+decision. Second thing to do is secure your water supply and food. Make any last-minute purchases to top off these supplies as quickly and 
+efficiently as you can. Remember to buy only non-perishables. Also remember that all retailers, grocery or otherwise, are resupplied upwards of
+three times weekly. recources from retailers will quickly be depleted. <br><br>
+Secure your home. Remember the real threat here isn't the zombies, it is other humans. Zombies have no problem-solving skills and are fairly 
+dim. They are much more easily dispatched or more importantly avoided than humans are. Home security is a topic I will cover in detail later.<br><br>
+Now you're set to ride out what ever disaster you're faced with. Communication with or from the outside world should be a primary concern for 
+you. You need to know what's going on with any rescue and relief efforts and updates to the situation at hand. Intel on your situation is vital.
+If you can help it, limit your time away from home. The more you're out, the more likely you will present yourself to danger and possible injury
+ or even death. Your situational awareness is another primary concern you will need to accommodate. Keep on the lookout for local police, 
+ emergency services, and other local, state or federal relief agencies. They will undoubtedly show up on your doorstep. Keep a watch out for 
+ intruders. Criminals will take advantage of the situation to loot anything they can. Take nothing for granted. Given the situation you cannot 
+ apply normal logic and happenstance to anything. Adapt to the changing situation and believe me the situation will develop rapidly. For better 
+ or worse it will be rapid.<br><br>
+Now let's make a few final notes on the short-term SM. Reassess your situation every couple of days or more often if you deem it necessary. 
+Reassess every aspect of your survival. If water services are not disrupted, top off your reserves often. Don't hesitate to protect your home 
+and your group with deadly force as necessary. I'll talk a little bit about use of appropriate force later. In a short-term situation and as 
+time passes things will get easier. Services will at worst come back on line slowly. Order will be restored and normal civic operations will 
+resume. As I said earlier, in a short-term situation you can afford to be a little bit more liberal in helping your neighbors and your 
+community. Do the right thing, just make sure you aren't putting yourself at risk, but I really don't need to tell you that; do I.
+</div> 
+
+</body>
+</html>

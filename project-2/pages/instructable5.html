@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Lost and Found: Life After Day Zero</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+<!--
+function popup(url) 
+{
+ var width  = 750;
+ var height = 400;
+ var left   = (screen.width  - width)/2;
+ var top    = (screen.height - height)/2;
+ var params = 'width='+width+', height='+height;
+ params += ', top='+top+', left='+left;
+ params += ', directories=no';
+ params += ', location=no';
+ params += ', menubar=no';
+ params += ', resizable=no';
+ params += ', scrollbars=yes';
+ params += ', status=no';
+ params += ', toolbar=no';
+ newwin=window.open(url,'windowname5', params);
+ if (window.focus) {newwin.focus()}
+ return false;
+}
+// -->
+</script>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="container"> 
+  <div id="site-header"> 
+    <center>
+      <a href="../index.html"><img src="../images/header.jpg"></a> 
+    </center>
+  </div>
+  <div id="site-nav"> 
+    <center>
+      <a href="../index.html">Home</a> <a href="../pages/about.html">About</a> 
+      <a href="../pages/contact.html">Contact Us</a> <a href="../index.html">Weekly 
+      Columns</a> <a href="../index.html">The Blood Circus</a> <a href="../index.html">Bugout 
+      Kits</a> <a href="../index.html">The DEAD ZONE</a> <a href="../index.html">Videos</a> 
+    </center>
+  </div>
+  <div id="site-body"> 
+    <div id="main-column"> 
+      <h2>Life After Day Zero</h2>
+      <a href="../pages/instructable1.html"id="hintanchor" onMouseover="showhint('The Introduction', this, event, '')">Page 
+      1</a>  <a href="../pages/instructable2.html"id="hintanchor" onMouseover="showhint('Factors and Concepts', this, event, '')">Page 
+      2</a>  <a href="../pages/instructable3.html"id="hintanchor" onMouseover="showhint('THE 24 RULES OF SURVIVAL', this, event, '')">Page 
+      3</a>  <a href="../pages/instructable4.html"id="hintanchor" onMouseover="showhint('A general overview of SMs by Term', this, event, '')">Page 
+      4</a>  Page 
+      5 <br>
+      <br>
+      <h4>Wrapping this installment up-</h4>
+      So- <br>
+      <br>
+      With what I have outlined in the previous pages of this article, I have 
+      created a fairly basic yet comprehensive framework from which you can build 
+      an SM for any situation. Using these ideas you can keep even the most elaborate 
+      plan straight and easy to understand for everyone within your group. <br>
+      <br>
+      For that is the cornerstone to any SM. Each and every member of your group, 
+      right down to the young children, must be able to implement or utilize any 
+      part of it. Think of it this way. If you're the keystone of your group; 
+      you have all the skills, did all the prepping, made all of the plans, and 
+      you get taken out; what happens to the rest of your group. Darwinism always 
+      think Darwinism. Also keep in mind that much of what I have stressed is 
+      subjective yet much can be specific to the Term of a given scenario. <br>
+      <br>
+      To conclude this installment I would like to offer you a list of videos 
+      that relate to the topics and to prepping in general. <br>
+      <br>
+      <a href="https://www.youtube.com/watch?v=0zCl5MuiOu4">Important Things To 
+      Know Before a Disaster</a><br>
+      <a href="https://www.youtube.com/watch?v=y16aMLeh91Q">10 things you should 
+      know about disaster risk reduction</a><br>
+      <a href="https://www.youtube.com/watch?v=8S4fZIHTb44">Communications Plan 
+      with no Cell Service</a><br>
+      <a href="https://www.youtube.com/watch?v=qhurBdMXraM">Stronger Community, 
+      Better Response Connecting Community Organizations During Disaster</a><br>
+      <a href="https://www.youtube.com/watch?v=GaD7HafRypY">The Citizen's Role 
+      in Disaster Preparedness</a><br>
+    </div>
+    <div id="right-column"> 
+      <div id="right-posts"> 
+        <h3>WRITERS</h3>
+        <a href="../html"><img src="../images/Itchy_thumb.jpeg"></a> <a href="../index.html">Itchy 
+        Da Clown</a><br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div id="right-posts"> 
+        <h3>RECENT POSTS</h3>
+        <a href="../index.html">Welcome to the LADZ Column</a><br>
+        <a href="../index.html">Welcome to the Reviews Column</a><br>
+        <a href="../index.html">Welcome to Skill Sets</a><br>
+        <a href="../index.html">Welcome to Real World Applications</a><br>
+        <a href="../index.html">Site Migration</a><br>
+        <br>
+      </div>
+      <div id="right-posts"> 
+        <h3>LIKE US ON FACEBOOK</h3>
+        <a href="https://www.facebook.com/lafsitepage/"><img src="../images/facebook.png" width="200" height="144"></a> 
+      </div>
+      <div id="right-posts"> <br>
+        <a href="https://www.youtube.com/channel/UC5PyrYXSSj3HWYT9GSpzing"><img src="../images/youtube.png"></a> 
+        <br>
+      </div>
+    </div>
+  </div>
+  <div id="site-footer"> 
+    <div id="info-box1"> 
+      <form action="" method="get">
+        <h3>ARCHIVES</h3>
+        <select name="months">
+          <option value="January">January</option>
+          <option value="Febuary">Febuary</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+        <br>
+        <input id="site-button" name="Select Archive Month" type="submit">
+      </form>
+    </div>
+    <div id="info-box2"> 
+      <h3>NEWS LETTER</h3>
+      <form action="" method="get">
+        <input name="email" type="text" value="E-mail" maxlength="15">
+        <br>
+        <input name="unscribe" type="checkbox" value="no">
+        Unsubscribe<br>
+        <input id="site-button" name="Submit" type="submit">
+      </form>
+    </div>
+    <div id="info-box3"> 
+      <h3>Search The LaF</h3>
+      <form action="" method="get">
+        <input name="search" type="text">
+        <br>
+        <input id="site-button" name="Submit" type="submit">
+      </form>
+    </div>
+  </div>
+  <div id="footer-nav"> 
+    <center>
+      <a href="../index.html">FaQ</a>| <a href="../index.html">Contact Us</a>| 
+      <a href="../index.html">User Agreement</a>| <a href="../index.html">Privacy 
+      Policy</a>| <a href="../index.html">Full Disclaimer</a> 
+    </center>
+  </div>
+  <div id="site-copywrite"> 
+    <center>
+      The Lost and Found - © 2018 
+    </center>
+  </div>
+</div>
+
+</body>
+</html>

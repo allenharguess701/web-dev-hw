@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Scope</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 200px; 
+padding: 5px;
+border:1px solid red;
+font:normal 9px Verdana; color: yellow;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="popup-main"> 
+
+<h4>SCOPE:</h4>Scope is the most important Factor you must contend with. The only ability you will have in dealing with it is your reaction 
+to it. The scope of any disaster you face is multi-dimensional. You must contend with the overall area of effect, the degree of disruption 
+and the length of time the disruption persists. This is itself very problematic, but not undoable. Being informed is your lifeline to success. 
+Having the proper gear to stay in the know is your first concern and is an absolute must. Most of what we rely on daily for our communication needs will 
+more than likely not be available or reliable during a disaster.<br><br>
+Now let go back to the statement I made earlier. Everything about prepping and survival is completely, utterly, and totally situational. What 
+I meant by that is, each disaster poses a unique set of circumstances that requires a unique set of tactics and strategies to survive. I like 
+to call them Survival Modes (SM). To be sure there are general survival modes that can be applied to all survival situations, but for the most 
+part each SM should be tailored as necessary to survive.<br><br>
+You can never predict what's going to occur. Nor can you plan for every possible outcome. Prepping is about mitigating the realities of 
+surviving a crisis. It's about generalizing as much as you can. The idea here is to outlast the initial onset of the disruption of your normal 
+everyday life and the demands that life make on you, possibly for an extended period.<br><br>
+A key step in doing this is understanding the life cycle of a disaster. Regardless of Scope, this life cycle will never change. This gives you 
+a sort of get out of jail free card you can play if you are astute enough to recognize the stages as they occur. According to researcher B. 
+Faulkner six stages make up the life cycle of a disaster.<br><br>
+<h4>Pre-event:</h4> Where action can be taken to prevent disasters (e.g. growth management planning or plans aimed at mitigating the effects 
+of potential disasters)<br><br>
+<h4>The Prodromal Stage:</h4> When it becomes apparent that the crisis is inevitable.<br><br>
+<h4>The Acute stage:</h4> The point of no return when the crisis has hit and damage limitation is the main objective. Effects of the disaster have been 
+felt and action must be taken to rescue people and property.<br><br>
+<h4>The Intermediate Stage:</h4> When the short-term needs of the people must be dealt with-restoring utilities and essential services. The objective 
+being at this point to restore the community to normality as quickly as possible.<br><br>
+<h4>The Chronic Stage:</h4> Clean up, post mortem, self-analysis and healing begins. This is a continuation of the previous Stage but items that could 
+not be addressed quickly are attended to at this point (repair of damaged infrastructure, correcting environmental problems, counseling victims,
+ reinvestment strategies, debriefings to provide input to revisions of disaster strategies).<br><br>
+<h4>Resolution:</h4> Routine daily life has been restored to previous or to a new improved state.<br><br>
+Understanding this life cycle will give you a much better handle on your understanding of and making decisions based on the other Factors 
+outlined above. Once you have this understanding you can then look at the Terms of your situation. I use this title to describe to length of 
+time it takes to complete the life cycle of a disaster. There are for durations or Terms listed below.<br><br>
+<h4>Short Term:</h4> 3 to 8 weeks.<br><br>
+<h4>Long Term:</h4> 3 to 6 Months.<br><br>
+<h4>Extended Term:</h4> More than a cycle of the four seasons.<br><br>
+<h4>End Game:</h4> There is no hope of returning to the state of living before the event, at least not in the lifetime of those who witnessed the onset 
+of the disaster and survived.<br><br>
+Keep in mind I'm talking about the completion of a disaster's life cycle. Also, keep in mind that these terms are set for very specific reasons that relate to the actions you will need to take in order to survive and flourish over the length of time each term specifies.
+<br><br>
+
+</div> 
+
+</body>
+</html>

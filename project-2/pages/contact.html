@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+	<meta name="description" content="Real World Survival Skills Applications">
+	<meta name="keywords" content="Survival,Zombies,bugout,apocalypse,survive,prepper">
+    <meta name="author" content="Allen Harguess">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>The Lost and Found: Contact Us</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+
+<style type="text/css">
+
+#hintbox{ /*CSS for pop up hint box */
+position:absolute;
+top: 0;
+background-color: black;
+width: 300px; 
+padding: 5px;
+border:1px solid red;
+font:normal 11px Verdana; color: red;
+line-height:18px;
+z-index:100;
+visibility: hidden;
+}
+
+.hintanchor{ /*CSS for link that shows hint onmouseover*/
+font-weight: bold;
+color: #749ec7;
+margin: 3px 8px;
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Show Hint script- © Dynamic Drive (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit http://www.dynamicdrive.com/ for this script and 100s more.
+***********************************************/
+		
+var horizontal_offset="9px" 
+var vertical_offset="12" 
+var ie=document.all
+var ns6=document.getElementById&&!document.all
+
+function getposOffset(what, offsettype){
+var totaloffset=(offsettype=="left")? what.offsetLeft : what.offsetTop;
+var parentEl=what.offsetParent;
+while (parentEl!=null){
+totaloffset=(offsettype=="left")? totaloffset+parentEl.offsetLeft : totaloffset+parentEl.offsetTop;
+parentEl=parentEl.offsetParent;
+}
+return totaloffset;
+}
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function clearbrowseredge(obj, whichedge){
+var edgeoffset=(whichedge=="rightedge")? parseInt(horizontal_offset)*-1 : parseInt(vertical_offset)*-1
+if (whichedge=="rightedge"){
+var windowedge=ie && !window.opera? iecompattest().scrollLeft+iecompattest().clientWidth-30 : window.pageXOffset+window.innerWidth-40
+dropmenuobj.contentmeasure=dropmenuobj.offsetWidth
+if (windowedge-dropmenuobj.x < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure+obj.offsetWidth+parseInt(horizontal_offset)
+}
+else{
+var windowedge=ie && !window.opera? iecompattest().scrollTop+iecompattest().clientHeight-15 : window.pageYOffset+window.innerHeight-18
+dropmenuobj.contentmeasure=dropmenuobj.offsetHeight
+if (windowedge-dropmenuobj.y < dropmenuobj.contentmeasure)
+edgeoffset=dropmenuobj.contentmeasure-obj.offsetHeight
+}
+return edgeoffset
+}
+
+function showhint(menucontents, obj, e, tipwidth){
+if ((ie||ns6) && document.getElementById("hintbox")){
+dropmenuobj=document.getElementById("hintbox")
+dropmenuobj.innerHTML=menucontents
+dropmenuobj.style.left=dropmenuobj.style.top=-500
+if (tipwidth!=""){
+dropmenuobj.widthobj=dropmenuobj.style
+dropmenuobj.widthobj.width=tipwidth
+}
+dropmenuobj.x=getposOffset(obj, "left")
+dropmenuobj.y=getposOffset(obj, "top")
+dropmenuobj.style.left=dropmenuobj.x-clearbrowseredge(obj, "rightedge")+obj.offsetWidth+"px"
+dropmenuobj.style.top=dropmenuobj.y-clearbrowseredge(obj, "bottomedge")+"px"
+dropmenuobj.style.visibility="visible"
+obj.onmouseout=hidetip
+}
+}
+
+function hidetip(e){
+dropmenuobj.style.visibility="hidden"
+dropmenuobj.style.left="-500px"
+}
+
+function createhintbox(){
+var divblock=document.createElement("div")
+divblock.setAttribute("id", "hintbox")
+document.body.appendChild(divblock)
+}
+
+if (window.addEventListener)
+window.addEventListener("load", createhintbox, false)
+else if (window.attachEvent)
+window.attachEvent("onload", createhintbox)
+else if (document.getElementById)
+window.onload=createhintbox
+
+</script>
+</head>
+<body>
+
+<div id="container"> 
+  <div id="site-header"> 
+    <center>
+      <a href="../index.html"><img src="../images/header.jpg"></a> 
+    </center>
+  </div>
+  <div id="site-nav"> 
+    <center>
+      <a href="../index.html">Home</a> <a href="../pages/about.html">About</a> 
+      <a href="../pages/contact.html">Contact Us</a> <a href="../index.html">Weekly 
+      Columns</a> <a href="../index.html">The Blood Circus</a> <a href="../index.html">Bugout 
+      Kits</a> <a href="../index.html">The DEAD ZONE</a> <a href="../index.html">Videos</a> 
+    </center>
+  </div>
+  <div id="site-body"> 
+    <div id="main-column"> 
+      <h2>Contact the Webmaster</h2>
+      <form action="" method="get">
+        Your Name: 
+        <input name="name" type="text" maxlength="30">
+        <br>
+        <br>
+        Your E-Mail: 
+        <input name="email" type="text" maxlength="30">
+        <br>
+        <br>
+        Your Feedback:<br>
+        <textarea name="feedback" cols="40" rows="10"></textarea>
+        <br>
+        <br>
+        <br>
+        <input name="mailinglist" type="checkbox" value="">
+        Subscribe to our mailing list.<br>
+        <input name="newsletter" type="checkbox" value="">
+        Have our mounthly newsletter sent to you.<br>
+        <br>
+        <br>
+        <input id="site-button" name="contactform" type="submit">
+      </form>
+    </div>
+    <div id="right-column"> 
+      <div id="right-posts">
+        <h3>WRITERS</h3>
+        <a href="../index.html"><img src="../images/Itchy_thumb.jpeg"></a> <a href="../index.html">Itchy 
+        Da Clown</a><br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div id="right-posts">
+        <h3>RECENT POSTS</h3>
+        <a href="../index.html">Welcome to the LADZ Column</a><br>
+        <a href="../index.html">Welcome to the Reviews Column</a><br>
+        <a href="../index.html">Welcome to Skill Sets</a><br>
+        <a href="../index.html">Welcome to Real World Applications</a><br>
+        <a href="../index.html">Site Migration</a><br>
+        <br>
+      </div>
+      <div id="right-posts">
+        <h3>LIKE US ON FACEBOOK</h3>
+        <a href="https://www.facebook.com/lafsitepage/"><img src="../images/facebook.png" width="200" height="144"></a> 
+      </div>
+      <div id="right-posts"> <br>
+        <a href="https://www.youtube.com/channel/UC5PyrYXSSj3HWYT9GSpzing"><img src="../images/youtube.png"></a> 
+        <br>
+      </div>
+    </div>
+  </div>
+  <div id="site-footer"> 
+    <div id="info-box1"> 
+      <form action="" method="get">
+        <h3>ARCHIVES</h3>
+        <select name="months">
+          <option value="January">January</option>
+          <option value="Febuary">Febuary</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+        <br>
+        <input id="site-button" name="Select Archive Month" type="submit">
+      </form>
+    </div>
+    <div id="info-box2">
+      <h3>NEWS LETTER</h3>
+      <form action="" method="get">
+        <input name="email" type="text" value="E-mail" maxlength="15">
+        <br>
+        <input name="unscribe" type="checkbox" value="no">
+        Unsubscribe<br>
+        <input id="site-button" name="Submit" type="submit">
+      </form>
+    </div>
+    <div id="info-box3">
+      <h3>Search The LaF</h3>
+      <form action="" method="get">
+        <input name="search" type="text">
+        <br>
+        <input id="site-button" name="Submit" type="submit">
+      </form>
+    </div>
+  </div>
+  <div id="footer-nav"> 
+    <center>
+      <a href="../index.html">FaQ</a>| <a href="../index.html">Contact Us</a>| 
+      <a href="../index.html">User Agreement</a>| <a href="../index.html">Privacy 
+      Policy</a>| <a href="../index.html">Full Disclaimer</a> 
+    </center>
+  </div>
+  <div id="site-copywrite"> 
+    <center>
+      The Lost and Found - © 2018 
+    </center>
+  </div>
+</div>
+
+</body>
+</html>
