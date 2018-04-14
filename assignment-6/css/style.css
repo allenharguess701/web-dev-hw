@@ -1,0 +1,450 @@
+/*
+Name: Assignment 6 
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	font-family: comic, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #ff0000;
+	background-color: #000000;
+}
+
+/* General Layout */
+#container {
+	width: 800px;
+	height: 800px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    z-index: 1;
+	background-image: url('../images/Background.jpg');
+}
+
+p {
+    margin-left: 35px;
+}
+
+/* Header */
+#site-header {
+	width: 190px;
+	height: 190px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: 5;
+	background-color: #000000;
+    border-radius: 25px
+}
+#site-footer {
+	width: 700px;
+	height: 30px;
+    position: absolute;
+    left: 100px;
+    top: 750px;
+    z-index: 7;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Image positions and sizing */
+
+/* /////////////////// Flowers //////////////// */
+/* Top to Middle Arc */
+.image1
+{
+    position: absolute;
+    left: 140px;
+    top: 10px;
+    z-index: 5;
+    width:90px;
+    height:90px;
+}
+.image1a
+{
+    position: absolute;
+	transform: rotate(25deg);
+	left: 180px;
+    top: 140px;
+    z-index: 5;
+    width:60px;
+    height:60px;
+}
+.image1b
+{
+    position: absolute;
+	transform: rotate(15deg);
+    left: 250px;
+    top: 219px;
+    z-index: 5;
+    width:50px;
+    height:50px;
+}
+.image1c
+{
+    position: absolute;
+	transform: rotate(15deg);
+    left: 325px;
+    top: 251px;
+    z-index: 5;
+    width:40px;
+    height:40px;
+}
+.image1d
+{
+    position: absolute;
+	transform: rotate(15deg);
+    left: 390px;
+    top: 272px;
+    z-index: 5;
+    width:32px;
+    height:32px;
+}
+.image1e
+{
+    position: absolute;
+	transform: rotate(25deg);
+    left: 450px;
+    top: 290px;
+    z-index: 5;
+    width:25px;
+    height:25px;
+}
+.image1f
+{
+    position: absolute;
+	transform: rotate(30deg);
+    left: 505px;
+    top: 310px;
+    z-index: 5;
+    width:20px;
+    height:20px;
+}
+
+/* Middle to Bottom Arc */
+
+.image1g
+{
+    position: absolute;
+	transform: rotate(30deg);
+    right: 115px;
+    bottom: 10px;
+    z-index: 2;
+    width:90px;
+    height:90px;
+}
+.image1h
+{
+    position: absolute;
+	transform: rotate(25deg);
+	right: 90px;
+    bottom: 140px;
+    z-index: 2;
+    width:60px;
+    height:60px;
+}
+.image1i
+{
+    position: absolute;
+	transform: rotate(15deg);
+    right: 100px;
+    bottom: 239px;
+    z-index: 2;
+    width:50px;
+    height:50px;
+}
+.image1j
+{
+    position: absolute;
+	transform: rotate(15deg);
+    right: 120px;
+    bottom: 311px;
+    z-index: 2;
+    width:40px;
+    height:40px;
+}
+.image1k
+{
+    position: absolute;
+	transform: rotate(15deg);
+    right: 155px;
+    bottom: 372px;
+    z-index: 2;
+    width:32px;
+    height:32px;
+}
+.image1l
+{
+    position: absolute;
+	transform: rotate(25deg);
+    right: 185px;
+    bottom: 420px;
+    z-index: 2;
+    width:25px;
+    height:25px;
+}
+.image1m
+{
+    position: absolute;
+	transform: rotate(30deg);
+	left: 540px;
+    top: 326px;
+    z-index: 2;
+    width:20px;
+    height:20px;
+}
+
+/* //////////////////End Flowers///////////// */
+/* Ballons */
+.image2
+{
+    position: absolute;
+    left: 370px;
+    top: 95px;
+    z-index: 6;
+    width:60px;
+    height:100px;
+}
+.image2a
+{
+    position: absolute;
+    left: 440px;
+    top: 75px;
+    z-index: 6;
+    width:65px;
+    height:120px;
+}
+.image2b
+{
+    position: absolute;
+    left: 515px;
+    top: 55px;
+    z-index: 6;
+    width:70px;
+    height:140px;
+}
+/* Centered rainbow */
+.image3
+{
+    position: absolute;
+    left: 240px;
+    top: 630px;
+    z-index: 6;
+    width:180px;
+    height:100px;
+}
+/* Left rainbow */
+.image4
+{
+    position: absolute;
+    left: 540px;
+    top: 230px;
+    z-index: 6;
+    width:210px;
+    height:150px;
+}
+/* Yellow Hand */
+.image5
+{
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    z-index: 1; 
+    width: 75%;
+    height: 80%;
+}
+/* Yellow Hand Small */
+.image5a
+{
+    position: absolute;
+    left: 106px;
+    top: 376px;
+    z-index: 6; 
+    width: 15%;
+    height: 22%;
+}
+/* Brown Hand */
+.image6
+{
+    position: absolute;
+    left: 452px;
+    top: 484px;
+    z-index: 6; 
+    width:215px;
+    height:270px;
+}
+/* Red Arrow*/
+.image7
+{
+    position: absolute;
+    left: 300px;
+    top: 390px;
+    z-index: 1;
+    width: 47%;
+    height: 47%;
+}
+/* Green Wind Arc */
+.image8
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3; 
+    width:800px;
+    height:800px;
+}
+/* Rainbow Border */
+.image9
+{
+    position: absolute;
+    left: 12px;
+    top: 250px;
+    z-index: 6; 
+    width: 70%;
+    height: 68%;
+}
+/* Green and Pink Spinner */
+.image10
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+    width:100%;
+    height:100%;
+}
+/* I Heart 70 */
+.image11
+{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    z-index: 6;
+    width:170px;
+    height:170px;
+}
+/* Title 1 */
+.image12
+{
+    position: absolute;
+    left: 200px;
+    top: 6px;
+    z-index: 7;
+    width:652px;
+    height:370px;
+}
+/* Title 2 */
+.image13
+{
+    position: absolute;
+    left: 30px;
+    top: 500px;
+    z-index: 7;
+    width:670px;
+    height:320px;
+}
+/* DELITE RECORDS */
+.image14
+{
+    position: absolute;
+    left: 617;
+    top: 689px;
+    z-index: 7;
+    width:183px;
+    height:111px;
+}
+/* STEREO */
+.image15
+{
+    position: absolute;
+    left: 25px;
+    top: 200px;
+    z-index: 7;
+    width:110px;
+    height:66px;
+}
+
+/* Divs depicting squares */
+#box-one {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+	width: 215px;
+	height: 135px;
+    left: 360px;
+    top: 45px;
+    z-index: 5;
+	background-color: #74e700;
+    border-radius: 5px;
+    padding: 10px;
+}
+#box-two {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+	width: 230px;
+	height: 170px;
+    left: 530px;
+    top: 220px;
+    z-index: 5;
+	background-color: #de2f9e;
+    border-radius: 5px;
+}
+#box-three {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+	width: 200px;
+	height: 256px;
+    left: 450px;
+    top: 480px;
+    z-index: 5;
+	background-color: #fff600;
+    border-radius: 5px;
+    padding: 10px;
+}
+#box-four {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+	width: 180px;
+	height: 100px;
+    left: 230px;
+    top: 620px;
+    z-index: 5;
+	background-color: #74e700;
+    border-radius: 5px;
+    padding: 10px;
+}
+#box-five {
+	opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: absolute;
+	width: 115px;
+	height: 170px;
+    left: 100px;
+    top: 370px;
+    z-index: 5;
+	background-color: #de2f9e;
+    border-radius: 5px;
+    padding: 10px;
+}
