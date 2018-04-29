@@ -27,4 +27,4 @@ I basically just created a series of divs that were positioned and styled using 
 with rounded corners and an icon of Griffindor over that.
 
 ### E.) Screenshot
-![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-6/images/Desktop_screenshot.png)
+![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-7/images/Desktop_screenshot.png)
