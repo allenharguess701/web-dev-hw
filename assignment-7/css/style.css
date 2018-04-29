@@ -1,0 +1,187 @@
+/*
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	background-color: black;
+}
+
+/* General Layout */
+#container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+	width: 90%;
+	height: 1150;
+	margin: 0 auto;
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+	background-position: 300px 0px;
+}
+
+/* Header */
+#site-header {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	margin:5px;
+	padding:5px;
+	position: absolute;
+    left: 30px;
+    top: 0px;
+
+}
+
+/* Header Boxes */
+#headerbox1 {
+	width: 100%;
+	height: 330;
+	margin: 5px;
+	padding: 5px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+
+}
+
+#headerbox2 {
+	width: 100%;
+	height: 450;
+	margin: 5px;
+	padding: 5px;
+    position: absolute;
+    left: 0px;
+    top: 320px;
+
+}
+
+#headerbox3 {
+	width: 100%;
+	margin: 5px;
+	padding: 5px;
+    position: absolute;
+    left: 890px;
+    top: 290px;
+    z-index: 2;
+}
+
+/* Header Images */
+.image1
+{
+width:500px;
+height:300px;
+}
+.image2
+{
+width:310px;
+height:450px;
+}
+
+.image3
+{
+width:100px;
+height:150px;
+}
+
+/* Main Body of Page */
+#site-body {
+	width: 60%;
+	height: 690px;
+	margin: 0 auto;
+	margin:5px;
+	padding:5px;
+    position: absolute;
+    left: 360px;
+    top: 390px;
+    text-align: left;
+}
+
+#site-body-background {
+	width: 60%;
+	height: 690px;
+	margin: 0 auto;
+	margin:5px;
+	padding:5px;
+    position: absolute;
+    left: 360px;
+    top: 390px;
+
+	background-color: #000000;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #fcb83d;
+	border-radius: 5px;	
+    opacity: 0.6;
+}
+
+/* Title Box */
+#site-title {
+	width: 30%;
+	height: 200;
+	margin: 0 auto;
+	margin:5px;
+	padding:5px;
+    position: absolute;
+    left: 70px;
+    top: 730px;
+}
+
+/* Footer */
+#site-footer {
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+	padding: 5px;
+	float: bottom;
+}
+
+a:link,
+a:visited {
+	color: #fcb83d;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 12;
+}
+a:hover {
+	color: #d25a26;
+	font-weight: bold;
+}
+
+a:active {
+	color: #fcb83d;
+	font-weight: bold;
+}
+
+p {
+	line-height: 1#65em;
+	margin: 0 0 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em 0;
+	font-weight: bold;
+	color: yellow;
+}
+
+#site-button {
+	font-weight: bold;
+	box-shadow: 5px 5px 10px #de9123;
+	border: 1px solid #8B0000;
+	margin: 2;
+	margin-top: 4;
+	text-shadow: 0 0 6px #FF0000;
+	background-color: #000000;
+	padding: 5px 14px;
+	vertical-align: bottom;
+	border-radius: 5px;
+}
+

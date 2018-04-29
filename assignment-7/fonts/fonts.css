@@ -1,0 +1,29 @@
+/*
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+@font-face {
+	font-family: 'IM Fell DW Pica', serif;
+	src: url("./fonts/IMFePIit28P.ttf");
+}
+
+body {
+	font-family: 'IM Fell DW Pica', serif;
+	font-size: 15px;
+	color: #fef1c4;
+}
+
+
+h3, h4, h5, h6 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 30px;
+	color: #d25a26;
+}
+
+h4, h5, h6 {
+	font-family: 'Qwigley', cursive;
+	font-size: 24px;
+	color: #fcb83d;	
+}
