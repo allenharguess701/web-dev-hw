@@ -1,7 +1,7 @@
 # Assignment 6
 ## Allen Harguess
 
-[Live Site: ](https://allenharguess701.github.io/web-dev-hw/assignment-6/)
+[Live Site: ](https://allenharguess701.github.io/web-dev-hw/assignment-7/)
 
 ### B.)Briefly share your design process for this assignment. What fonts did you choose, and why?
 
@@ -27,4 +27,4 @@ I basically just created a series of divs that were positioned and styled using 
 with rounded corners and an icon of Griffindor over that.
 
 ### E.) Screenshot
-![Screenshot](https://github.com/allenharguess701/web-dev-hw/tree/master/assignment-7/images/Desktop_screenshot.png)
+![Screenshot](https://github.com/allenharguess701/web-dev-hw/blob/master/assignment-7/Images/Desktop_screenshot.png)
