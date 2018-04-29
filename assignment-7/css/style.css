@@ -23,7 +23,7 @@ body {
 	width: 90%;
 	height: 1150;
 	margin: 0 auto;
-	background-image: url("./images/background.jpg");
+	background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
 	background-position: 300px 0px;
 }
