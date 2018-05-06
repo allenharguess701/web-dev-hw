@@ -1,0 +1,276 @@
+/*
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+html {
+	padding: 0;
+}
+
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	background-color: #000000;
+}
+
+/* General Layout */
+#container {
+	width: 800;
+	height: 1749;
+    position: absolute;
+    left: 200px;
+    top: 20px;
+	background-color: #fdfdf1;	
+}
+
+/* Cells */
+#woman {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+	width: 503px;
+	height: 1200px;
+	z-index: 3;
+}
+
+#scene {
+    position: absolute;
+    left: 26px;
+    top: 898px;
+	width: 500;
+	height: 300;
+	z-index: 2;
+}
+
+#blurp1 {
+    position: absolute;
+    left: 20px;
+    top: 1155px;
+	width: 500;
+	height: 200;
+}
+
+#filterqueen {
+    position: absolute;
+    left: 56px;
+    top: 1294px;
+	width: 500;
+	height: 300;
+	z-index: 2;
+}
+
+#blurp2 {
+    position: absolute;
+    left: 23px;
+    top: 1540px;
+	width: 500;
+	height: 200;
+	z-index: 2;
+}
+
+#headertext1 {
+    position: absolute;
+    left: 340px;
+    top: 30px;
+	width: 550;
+	height: 500;
+    transform: rotate(-12deg);
+	z-index: 2;
+}
+#headertext2 {
+    position: absolute;
+    left: 500px;
+    top: 90px;
+	width: 550;
+	height: 500;
+    transform: rotate(12deg);
+	z-index: 2;
+}
+#headertext3 {
+    position: absolute;
+    left: 300px;
+    top: 270px;
+	width: 900;
+	height: 500;
+    transform: scaleY(1.5);
+	z-index: 2;
+}
+
+#line {
+    position: absolute;
+    left: 555px;
+    top: 96px;
+	width: 150;
+	height: 32;
+	background-image: url("../images/line.png");
+    background-repeat: no-repeat;
+	z-index: 1;
+}
+
+
+#textbox {
+    position: absolute;
+    left: 376px;
+    top: 260px;
+	width: 400px;
+	height: 100px;
+	background-image: url("../images/textboxback.png");
+    background-repeat: no-repeat;
+	z-index: 1;
+	padding: 40px;
+}
+
+#textbox2 {
+    position: absolute;
+    left: 378px;
+    top: 372px;
+	width: 600;
+	height: 200;
+    font-style: italic;
+}
+
+#icon1 {
+    position: absolute;
+    left: 363px;
+    top: 447px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+
+#icon2 {
+    position: absolute;
+    left: 368px;
+    top: 573px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+
+#icon3 {
+    position: absolute;
+    left: 377px;
+    top: 737px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+
+#subhead1 {
+    position: absolute;
+    left: 518px;
+    top: 447px;
+	width: 500;
+	height: 300;
+	z-index: 1;	
+}
+
+#subhead2 {
+    position: absolute;
+    left: 515px;
+    top: 573px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+
+#subhead3 {
+    position: absolute;
+    left: 515px;
+    top: 697px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+#subheadblurp1 {
+    position: absolute;
+    left: 565px;
+    top: 487px;
+	width: 500;
+	height: 300;
+	z-index: 1;	
+}
+
+#subheadblurp2 {
+    position: absolute;
+    left: 563px;
+    top: 620px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+
+#subheadblurp3 {
+    position: absolute;
+    left: 562px;
+    top: 730px;
+	width: 500;
+	height: 300;
+	z-index: 1;
+}
+#blurp3 {
+    position: absolute;
+    left: 415px;
+    top: 890px;
+	width: 370;
+	height: 370;
+	padding:5px;
+}
+
+#logo {
+    position: absolute;
+    left: 298px;
+    top: 1230px;
+	width: 500;
+	height: 300;
+	z-index: 2;
+}
+
+#guarantee {
+    position: absolute;
+    left: 650px;
+    top: 1412px;
+	width: 500;
+	height: 300;
+	z-index: 3;
+}
+
+#coupon {
+    position: absolute;
+    left: 398px;
+    top: 1486px;
+	width: 356;
+	height: 199;
+	z-index: 1;
+	padding-left: 13px;
+	border: 5px dashed black;
+}
+
+#footer {
+    position: absolute;
+    left: 11px;
+    top: 1695px;
+	width: 800;
+	height: 370;
+	padding:5px;
+}
+
+#patent {
+    position: absolute;
+    left: 9px;
+    top: 644px;
+	width: 109;
+	height: 34;
+	padding:5px;
+	z-index: 1;
+}
+
+#gh {
+    position: absolute;
+    left: 678px;
+    top: 1487px;
+	width: 81;
+	height: 29;
+	padding:5px;
+}

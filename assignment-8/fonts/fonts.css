@@ -1,0 +1,127 @@
+/*
+Author: VANTHROMHRE
+Author URI: http://www.harguess.com
+Version: 1.0
+*/
+
+@font-face {
+	font-family: 'Meridien-Medium', serif;
+	src: url("./fonts/Meridien-Medium.ttf");
+}
+font.small {
+	font-family: 'Meridien-Medium', serif;
+	font-size: 90%;
+}
+font {
+	font-family: 'Meridien-Medium', serif;
+	font-size: 1.1em;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 27px;
+	letter-spacing: .55px;
+	word-spacing: 3.5px;
+}
+font.blurp1 {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 15;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.blurp1a {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 13;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 14px;
+	word-spacing: 1.5px;
+}
+
+font.textbox {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 42;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+    font-style: italic;
+}
+
+font.textbox2 {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 26;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.blurp2 {
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 14;
+	color: #303f44;
+	font-weight: bold;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.footer {
+	font-size: 20;
+	line-height: 20px;
+	word-spacing: 1.5px;
+}
+
+font.subheading{
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 62px;
+	color: #ed1701;	
+}
+
+font.subhdgblurp{
+	font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+	src: url("./fonts/ARLRDBD.TTF");
+	font-size: 15px;
+	color: #303f44;
+	letter-spacing: .065px;
+	line-height: 20px;
+	word-spacing: .5px;
+}
+
+font.subheading{
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 62px;
+	color: #ed1701;	
+}
+
+font.leftdist{
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 72px;
+	color: #303f44;
+	letter-spacing: 2px;
+	
+}
+
+font.rightdist{
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 72px;
+	color: #303f44;
+	letter-spacing: 1.5px;	
+}
+
+font.bottom{
+    font-family: 'Forte';
+    src: url('./fonts/forte.ttf');
+	font-size: 47px;
+	color: #303f44;
+}
