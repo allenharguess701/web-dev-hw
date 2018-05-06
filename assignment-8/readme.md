@@ -21,4 +21,4 @@ For the most part I just followed the assignment outline. I had no real problems
 I basically just created a series of divs that were positioned and styled using CSS id's I did similar styling, sizing, and positioning with the graphic elements. I was not able to find the exact fonts so I approximated those I found to best represent the feel of the add.
 
 ### E.) Screenshot
-![Screenshot](https://github.com/allenharguess701/web-dev-hw/blob/master/assignment-8/Images/Desktop_screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/allenharguess701/web-dev-hw/master/assignment-8/images/Desktop_screenshot.png)
