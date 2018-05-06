@@ -1,7 +1,7 @@
 # Responsive Website
 ## Allen Harguess
 
-[Live Site: ](https://allenharguess701.github.io/web-dev-hw/web-dev-hw/ResponsiveWebsite/
+[Live Site: ](https://allenharguess701.github.io/web-dev-hw/ResponsiveWebsite/
 )
 
 ### B.) Answer The following;
