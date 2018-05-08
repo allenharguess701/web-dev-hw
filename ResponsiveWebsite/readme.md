@@ -38,3 +38,6 @@ Menu: Shows a complete menu of coffees served.
 Contact: Gives contact information, hours of operation, Social media account links, and fun zombie stuff.
 Location: Shows an image of Missoula and give address.
 Specials: Shows various coffee mugs that can be purchased.
+
+### D.) Wire Frame
+![Wire Frame](https://raw.githubusercontent.com/allenharguess701/web-dev-hw/master/ResponsiveWebsite/images/WireFrame.jpg)
